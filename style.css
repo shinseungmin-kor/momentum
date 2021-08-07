@@ -5,64 +5,74 @@ body{
     padding: 1%;
 }
 
-/* h1{
-    font-size: 112px;
-    margin-top:13%;
+h1{
+    font-size: 70px;
+    margin-top:15%;
     margin-bottom: 0px;
-} */
+}
 
-/* h5{
+h2{
+    font-size: 40px;
+    margin-top:1%;
+    margin-bottom: 0px;
+}
+
+h5{
     font-weight: 100;
     font-size: 22px;
     margin-bottom: 10px;
-} */
+}
 
 input {
     border: none;
     background: transparent;
     font-size: 22px;
-    margin: 3px;
+    margin: 10px;
     text-align:center;
     color: #ecf0f1;
     border-bottom: 2px solid #ecf0f1;
 }
 
-/* ul {
+ul {
     margin-left: 40%;
-} */
+}
 
-/* li{
+li{
     list-style: none;
     font-size: 20px;
     text-align:left;
     color: #ecf0f1;
-} */
-/* li:before{
+}
+li:before{
     content:'🤍';
     display: inline;
     vertical-align: left;
     padding: 5px;
-} */
+}
 
-/* button{
+button{
     border: none;
     background: transparent;
     font-size: 22px;
-} */
+}
 
-/* .form,
+.form,
 .greetings {
     display: none;
-} */
+}
 
-/* .showing{
+.login-form {
+    margin-top: 50px;
+}
+
+.showing{
     display: block;
     transition: color .5s ease-in-out;
     font-size: 34px;
     margin-top: 0px;
-} */
+}
 
-.bgImage {
+Img {
     position: absolute;
     top:0;
     left: 0;
@@ -72,17 +82,17 @@ input {
     animation: fadeIn 0.5s linear;
 }
 
-/* .js-temp{
+.js-temp{
     font-weight: 500;
     font-size: 22px;
     padding-left: 95%;
-} */
+}
 
-/* .js-place{
+.js-place{
     font-weight: 300;
     font-size: 12px;
     padding-left: 95%;
-} */
+}
 
 @keyframes fadeIn{
     from {
