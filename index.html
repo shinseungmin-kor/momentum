@@ -1,39 +1,35 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <title>Momentum</title>
-        <link rel="stylesheet" href="style.css">
-        <meta charset="utf-8" />
+        <title>Make a better day</title>
+        <link rel="stylesheet" href="index.css"/>
+        <meta charset="utf-8"/>
     </head>
     <body>
-        <form class="hidden" id="login-form">
-        <input
-        required
-        maxlength="15"
-        type="text" 
-        placeholder="What is your name?" 
-        />
-        <button></button>
-        </form>
-        <h1 id="greeting" class="hidden"></h1>
-        <h2 id="clock">00:00:00</h2>
-        <form id="todo-form">
-            <input type="text" placeholder="Write a To Do and Press Enter" required />
-        </form>
-        <ul id="todo-list"></ul>
-        <div id="quote">
-            <span></span> /
-            <span></span>
+        <span class='temp'></span>  
+        <span class='place'></span>
+
+        <div class="clock">
+            <h1>00:00</h1>
         </div>
-        <div id="weather">
-            <span></span>
-            <span></span>
-        </div>
-    <script src="js/greetings.js"></script>
-    <script src="js/clock.js"></script>
-    <script src="js/quotes.js"></script>
-    <script src="js/background.js"></script>
-    <script src="js/todo.js"></script>
-    <script src="js/weather.js"></script>
+        <h4 class="greetings"></h4>
+
+        <h5>Write down things to do today</h5>
+
+        <form class="form">
+            <input type='text' placeholder="What is your name?"/>
+        </form>
+        
+        <form class="toDoForm">
+            <input type="text" placeholder=""/>
+        </form>
+        <ul class="toDoList">
+        </ul>
+
+        <script src="clock.js"></script>
+        <script src="greeting.js"></script>
+        <script src="todo.js"></script>
+        <script src="background.js"></script>
+        <script src="weather.js"></script>
     </body>
 </html>

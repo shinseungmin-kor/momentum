@@ -6,14 +6,8 @@ body{
 }
 
 h1{
-    font-size: 70px;
-    margin-top:15%;
-    margin-bottom: 0px;
-}
-
-h2{
-    font-size: 40px;
-    margin-top:1%;
+    font-size: 112px;
+    margin-top:13%;
     margin-bottom: 0px;
 }
 
@@ -27,7 +21,7 @@ input {
     border: none;
     background: transparent;
     font-size: 22px;
-    margin: 10px;
+    margin: 3px;
     text-align:center;
     color: #ecf0f1;
     border-bottom: 2px solid #ecf0f1;
@@ -61,10 +55,6 @@ button{
     display: none;
 }
 
-.login-form {
-    margin-top: 50px;
-}
-
 .showing{
     display: block;
     transition: color .5s ease-in-out;
@@ -72,7 +62,7 @@ button{
     margin-top: 0px;
 }
 
-Img {
+.bgImg{
     position: absolute;
     top:0;
     left: 0;
@@ -82,13 +72,13 @@ Img {
     animation: fadeIn 0.5s linear;
 }
 
-.js-temp{
+.temp{
     font-weight: 500;
     font-size: 22px;
     padding-left: 95%;
 }
 
-.js-place{
+.place{
     font-weight: 300;
     font-size: 12px;
     padding-left: 95%;
